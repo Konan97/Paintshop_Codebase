@@ -1,5 +1,5 @@
 """
-create tables based on top 3 defects
+This program displays following tables based on top 3 ATACQ items
  _____________________________
 |Fault Area | count | percent |
 |___________|_______|_________|
