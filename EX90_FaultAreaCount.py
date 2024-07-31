@@ -1,5 +1,5 @@
 """
-This program displays following tables based on top 3 ATACQ items
+This program displays following tables for EX90 based on top 3 ATACQ items
  _____________________________
 |Fault Area | count | percent |
 |___________|_______|_________|
