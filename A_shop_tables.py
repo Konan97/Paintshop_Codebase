@@ -13,7 +13,7 @@ import matplotlib
 
 stations = ['WE_GD', 'FIN_A', 'ARPR']
 dataset = dataset.loc[~dataset['Linking Workstation'].isin(stations)]
-options = ['BUD1', 'RB258', 'B0185', 'B0680', 'RB292', 'RBS000', 'RB09A', 'B0102', 'BSEA1', 'BSEAL', 'RB251', 'RB400', 'RB401', 'RB402', 'RB403', 'RB007', 'RB245', 'RB100', 'RB444', 'RB405', 'RB446', 'RB0009', 'RB410', 'RB411', 'RB291', 'RB06', 'B0058', 'B0121', 'B0123', 'B0184', 'B021', 'B0421', 'RBB0006', 'B0570', 'B0670', 'RAA006', 'RB0002']
+options = ['RB258', 'RB292','RB403','RB245','RB402','RB410','RB401','RB411','B0540','RB251','B0102','RB09A', 'RB405','RB444', 'RB0009', 'RB400','RB446','RB100', 'B0421', 'RBB0006', 'RB291','B0401','RB007',  'B0104']
 dataset = dataset.loc[dataset['ATACQ Item Code'].isin(options)]
 
 dataset = dataset.dropna()
